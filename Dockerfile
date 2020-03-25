@@ -6,7 +6,7 @@ COPY . .
 RUN CGO_ENABLED=0 go build -o /bin/ruf
 
 
-FROM scratch
+FROM alpine
 
 WORKDIR /bin/app
 
