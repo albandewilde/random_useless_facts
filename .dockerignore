@@ -1,0 +1,15 @@
+# Some files
+Dockerfile
+docker-compose.yml
+.dockerignore
+LICENSE
+README.md
+
+# vim swap file
+*.vim
+
+# Templates file
+*.tpl
+
+# The git history
+.git/
