@@ -6,8 +6,9 @@ Discord which send random useless facts using https://uselessfacts.jsph.pl/
 
 Invite the bot by clicking on [this link](https://discordapp.com/oauth2/authorize?client_id=692343582727602197&permissions=0&scope=bot "Invire RUF")
 
-On your discord server you'll be able to use the two commands `°random` and `°today`
+On your discord server you'll be able to use the three commands `°help`, `°random` and `°today`
 
+- `°help` → Get a help message from the bot
 - `°random` or `°fact` → Get a random useless fact (A new one each request)
 - `°today` → Get useless fact of today (Updates every 24 hours)
 

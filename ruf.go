@@ -30,6 +30,7 @@ func main() {
 
 	// Register function callback
 	bot.AddHandler(fact)
+	bot.AddHandler(help)
 
 	// Open bot connection
 	err = bot.Open()
@@ -98,5 +99,17 @@ func fact(s *dgo.Session, m *dgo.MessageCreate) {
 	// May the command is unknow, so we don't have any url
 	if url != "" {
 		s.ChannelMessageSend(m.ChannelID, getFact(url))
+	}
+}
+
+func help(s *dgo.Session, m *dgo.MessageCreate) {
+	if m.Content == "°help" {
+		content := "```\n" +
+			"- °help → Display this help message\n" +
+			"- °random or °fact → Display a random useless fact\n" +
+			"- °today → Display the random useless fact of the day\n" +
+			"```"
+
+		s.ChannelMessageSend(m.ChannelID, content)
 	}
 }
