@@ -1,6 +1,8 @@
 # Random Useless Facts (RUF)
 
-Discord which send random useless facts using https://uselessfacts.jsph.pl/
+[![Discord Bots](https://top.gg/api/widget/status/692343582727602197.svg)](https://top.gg/bot/692343582727602197)
+
+Discord bot which send random useless facts using https://uselessfacts.jsph.pl/
 
 ## Usage
 
