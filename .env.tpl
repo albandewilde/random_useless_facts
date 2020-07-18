@@ -1,1 +1,1 @@
-discord="<your_discord_token>"
+discord=<your_discord_token>
